@@ -1,0 +1,217 @@
+body {
+    background-color: #f4f4f9; /* Fondo pastel claro */
+    color: #444444; /* Texto gris suave */
+}
+
+/* Navbar personalizado */
+.navbar.custom-navbar {
+    background-color: #d5e8d4 !important; /* Verde pastel */
+}
+
+.navbar-brand img {
+    border-radius: 50% !important;
+}
+
+.nav-link {
+    color: #5d6d7e !important; /* Azul suave */
+}
+
+.nav-link:hover {
+    color: #b7c7d8 !important; /* Azul pastel claro */
+}
+
+/* Botón de búsqueda */
+.btn-outline-success {
+    color: #5d6d7e !important; /* Azul suave */
+    border-color: #5d6d7e !important;
+    transition: all 0.3s !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #b7c7d8 !important; /* Azul pastel claro */
+    color: #5d6d7e !important;
+}
+
+/* Carrusel */
+.carousel-item img {
+    height: 450px !important;
+    object-fit: cover !important;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem !important;
+    color: #a3c9a8 !important; /* Verde pastel claro */
+    text-shadow: 2px 2px 5px #ffffff !important; /* Sombra blanca suave */
+}
+
+.carousel-caption p {
+    font-size: 1.25rem !important;
+    color: #e5e8ec !important; /* Texto en gris claro */
+    text-shadow: 1px 1px 3px #b7c7d8 !important; /* Azul pastel claro */
+}
+
+/* Tabla personalizada */
+.table.custom-table {
+    margin-top: 2rem !important;
+    border: 1px solid #a3c9a8 !important; /* Verde pastel */
+}
+
+.table.custom-table th {
+    background-color: #e6f5e8 !important; /* Verde muy claro */
+    color: #5d6d7e !important; /* Azul suave */
+}
+
+.table.custom-table td {
+    background-color: #dce3ef !important; /* Azul muy claro */
+    color: #5d6d7e !important; /* Azul suave */
+}
+
+/* Tarjetas personalizadas */
+.card-custom {
+    border: none !important;
+    transition: transform 0.3s ease-in-out !important;
+}
+
+.card-custom:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-img-top {
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.card-title-custom {
+    font-size: 1.25rem !important;
+    color: #5d6d7e !important; /* Azul suave */
+    margin-bottom: 1rem !important;
+}
+
+.card-body-custom {
+    background-color: #f0f7f4 !important; /* Fondo verde muy claro */
+    border-radius: 0 0 8px 8px !important;
+}
+
+.btn-custom {
+    background-color: #a3c9a8 !important; /* Verde pastel */
+    color: #5d6d7e !important; /* Azul suave */
+}
+
+.btn-custom:hover {
+    background-color: #b7c7d8 !important; /* Azul pastel claro */
+    color: #5d6d7e !important;
+}
+
+/* Sección Sobre Nosotros */
+#about-us {
+    background-color: #f0f7f4 !important; /* Verde muy claro */
+    padding: 4rem 0 !important;
+}
+
+#about-us .section-title {
+    font-size: 2.5rem !important;
+    color: #5d6d7e !important; /* Azul suave */
+    margin-bottom: 1.5rem !important;
+}
+
+#about-us p.lead {
+    font-size: 1.2rem !important;
+    color: #5d6d7e !important;
+}
+
+#about-us h5 {
+    color: #a3c9a8 !important; /* Verde pastel */
+    font-weight: bold !important;
+}
+
+/* Sección Datos */
+#farm-data {
+    background-color: #e8eff5 !important; /* Azul muy claro */
+    padding: 4rem 0 !important;
+}
+
+#farm-data h5 {
+    font-size: 1.5rem !important;
+    color: #5d6d7e !important; /* Azul suave */
+    margin-bottom: 0.5rem !important;
+}
+
+#farm-data p {
+    font-size: 1.1rem !important;
+    color: #5d6d7e !important; /* Azul suave */
+}
+
+/* Estilo general */
+a {
+    text-decoration: none !important;
+    color: #5d6d7e !important; /* Azul suave */
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: #a3c9a8 !important; /* Verde pastel claro */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem !important;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+
+    #about-us .section-title {
+        font-size: 2rem !important;
+    }
+
+    #farm-data h5 {
+        font-size: 1.25rem !important;
+    }
+}
+
+/* Estilo del modal */
+.modal-content {
+    background-color: #ffffff;
+    border: 1px solid #a3c9a8;
+    padding: 20px;
+}
+
+.close {
+    color: #5d6d7e;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #a3c9a8;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
